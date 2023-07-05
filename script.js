@@ -14,7 +14,6 @@ function generatePassword(){
     return;
   }
 
-  console.log(!includeLower, !includeUpper, !includeNum, !includeSpecial)
   if (!includeLower && !includeUpper && !includeNum && !includeSpecial){
     window.alert("You must select at least one character type.");
     return;
